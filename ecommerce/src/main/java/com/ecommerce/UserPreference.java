@@ -26,6 +26,9 @@ public class UserPreference {
         User updateUser = new User(user.getUserId(), userCountry, user.getLanguage());
         // Update the User
         userMap.put(userName,updateUser);
+
+        System.out.println(updateUser + "updated successfully.");
+
     }
  
     public void updateUserLanguage(String userName, String userLanguage) {
@@ -35,6 +38,8 @@ public class UserPreference {
         User updateUser = new User(user.getUserId(), user.getCountry(),userLanguage);
         // Update the User
         userMap.put(userName,updateUser);
+
+        System.out.println(updateUser + "updated successfully.");
     }
 
 
