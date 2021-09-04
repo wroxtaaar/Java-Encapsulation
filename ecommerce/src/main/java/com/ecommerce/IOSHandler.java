@@ -22,11 +22,7 @@ public class IOSHandler {
         //   IOS specific code
         //   ...
         //   ...
-        //   IOS specific code
-
-        //   Do some basic validation of whether this language is spoken in the country.
-        //   It is given that users in USA can speak only English or Spanish,
-        //   and Indians can speak only English or Hindi.
+        //   IOS specific codeS
         userPreference.updateUserLanguage(userName, userLanguage);
     }
 }
