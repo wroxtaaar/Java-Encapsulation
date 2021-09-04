@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class UserPreference {
 
-    Map<String, User> userMap;
+    private Map<String, User> userMap;
 
     // Constructor simulation of loading the user preference data from external source.
     // Here, Hashmap is used for demo purpose.
